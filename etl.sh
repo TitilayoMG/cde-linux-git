@@ -10,6 +10,7 @@ echo "The bash script is running in $(pwd)"
 
 # loads the variables from .env file
 source .env
+echo "Successfully loads the variable from .env file"
 
 # The raw file path
 file='raw/data.csv'
